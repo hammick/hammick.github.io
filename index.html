@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/main-page.css">
+
+  <script src="main.js"></script>
+  <script src="iframes.js"> </script>
+</head>
+
+<body onload="page_load()">
+  <header>
+      <h1>Wiki</h1>
+  </header>
+
+  <main>
+    <nav>
+        <a href = "javascript:set_iframe('./front.html')" title="Go to front page.">Front Page</a>
+        <a href = "javascript:set_iframe('./404.html')" title="Go to front page.">404</a>
+    </nav>
+    <article>
+        <iframe id="content" src="./front.html">
+    </article>
+  </main>
+
+  <footer>
+    This is a footer.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body, div, html, header, footer, main
+{
+    box-sizing: border-box;
+}
+
+.infobox
+{
+    border: 2px solid purple;
+}

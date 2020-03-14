@@ -1,0 +1,55 @@
+/* This CSS will only appear in the main page. */
+
+html
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    border: 1px solid red;
+    max-width: 50em;
+    margin: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1em;
+}
+header, main, footer
+{
+    border: 2px solid blue;
+    
+}
+main
+{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+nav, article
+{
+    border: 1px dashed red;
+    padding: 1em;
+    flex-grow: 1;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+article
+{
+    display: flex;
+    flex-direction: column;
+}
+iframe
+{
+    border: 1px solid red;
+    flex-grow: 1;
+}
