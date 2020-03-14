@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>Mathfinder</title>
+  <meta name="description" content="Bathfinder">
+  <meta name="author" content="anonymous">
 
   <link rel="stylesheet" href="./css/all.css">
   <link rel="stylesheet" href="./css/main-page.css">
@@ -17,21 +17,22 @@
 
 <body onload="page_load()">
   <header>
-      <h1>Wiki</h1>
+    <h1><a href="?page=front.html">Wiki</a></h1>
   </header>
 
   <main>
     <nav>
-        <a href="javascript:void" onclick="set_iframe('./front.html');" title="Go to front page.">Front Page</a>
-        <a href="javascript:void" onclick="set_iframe('./404.html');" title="Try the 404 page.">404</a>
+        <a href="?page=front.html">Front Page</a>
+        <a href="?page=world.html">World</a>
+        <a href="?page=races.html">Races</a>
+        <a href="?page=wildlife.html">Wildlife</a>
     </nav>
-    <article>
-        <iframe id="content" src="./front.html">
-    </article>
+    <iframe id="content" src="""></iframe>
   </main>
 
   <footer>
     This is a footer.
+    <a href="?page=template.html">View the article template.</a>
   </footer>
 </body>
 </html>
