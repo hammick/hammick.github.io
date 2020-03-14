@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="./css/all.css">
   <link rel="stylesheet" href="./css/main-page.css">
 
-  <script src="main.js"></script>
-  <script src="iframes.js"> </script>
+  <script src="./scripts/main.js"></script>
+  <script src="./scripts/iframes.js"></script>
 </head>
 
 <body onload="page_load()">
@@ -22,8 +22,8 @@
 
   <main>
     <nav>
-        <a href = "javascript:set_iframe('./front.html')" title="Go to front page.">Front Page</a>
-        <a href = "javascript:set_iframe('./404.html')" title="Go to front page.">404</a>
+        <a href="javascript:void" onclick="set_iframe('./front.html');" title="Go to front page.">Front Page</a>
+        <a href="javascript:void" onclick="set_iframe('./404.html');" title="Try the 404 page.">404</a>
     </nav>
     <article>
         <iframe id="content" src="./front.html">

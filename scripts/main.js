@@ -17,5 +17,5 @@ function getUrlParam(parameter, defaultvalue){
 function page_load() {
     var page = getUrlParam("page", "./front.html");
     var request = new XMLHttpRequest();
-    set_iframe(page)
+    set_iframe(page);
 }

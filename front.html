@@ -2,6 +2,7 @@ Hello world!
 
 <head>
 <link rel="stylesheet" href="./css/all.css">
+<script src="./scripts/iframes.js"></script>
 <!--script src="iframes.js"> </!--script-->
 <base target="_parent"/>
 </head>
@@ -9,9 +10,9 @@ Hello world!
 <body>
     <ul class="infobox">
         <li>
-            fuck shit
+            Hello world!
         </li>
     </ul>
 
-    <a onclick="location.href='404.html';" href="javascript:void" title="Go to front page.">404</a>
+    <a href="javascript:void" onclick="set_iframe('./404.html');" title="Go to front page.">404</a>
 </body>
