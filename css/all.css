@@ -10,7 +10,7 @@ body, div, html, header, footer, main
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3
+h1, h2, h3, h4, nav li
 {
     font-family: 'Merriweather';
 }
@@ -26,8 +26,14 @@ a:hover
     text-decoration: underline;
 }
 
-header a 
+h1 a 
 {
     color: black;
     text-decoration: none;
+}
+
+.lined
+{
+    width:100%;
+    border-bottom: 0.15em solid black;
 }
